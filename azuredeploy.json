@@ -243,7 +243,7 @@
     "sqlPoolName": "[toLower(concat(variables('workspaceName'),'p1'))]",
     "workspaceName": "[toLower(concat(variables('synapseName'),'ws1'))]",
     "sparkPoolName": "[toLower('ws1sparkpool1')]",
-    "keyVaultName": "[toLower(concat('kv',parameters('companyTla'),uniquestring(resourceGroup().id),variables('deploymentType')))]",
+    "keyVaultName": "teskeyvl123",
     "storageAccountId": "[resourceId('Microsoft.Storage/storageAccounts', variables('dlsName'))]",
     "logicApps": [
       "SynapsePauseSchedule",
