@@ -460,7 +460,7 @@
           "dependsOn": [ "[variables('workspaceName')]" ],
           "properties": {
             "grantSqlControlToManagedIdentity": {
-              "desiredState": "Enabled"
+              "desiredState": "disabled"
             }
           }
         }
