@@ -407,7 +407,7 @@
       "name": "[variables('workspaceName')]",
       "location": "[variables('location')]",
       "identity": {
-        "type": "SystemAssigned"
+        "type": "None"
       },
       "dependsOn": [
         "[variables('dlsName')]",
