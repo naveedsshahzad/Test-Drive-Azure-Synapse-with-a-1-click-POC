@@ -406,9 +406,7 @@
       "apiVersion": "2019-06-01-preview",
       "name": "[variables('workspaceName')]",
       "location": "[variables('location')]",
-      "identity": {
-        "type": "None"
-      },
+
       "dependsOn": [
         "[variables('dlsName')]",
         "[variables('dlsFsName')]"
